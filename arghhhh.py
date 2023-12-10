@@ -26,7 +26,7 @@ st.markdown('Input your product description to get slogan ideas. \n\
 st.sidebar.header('Choose your product slogan')
 st.sidebar.write("""#### Your OpenAi API key here""")
 #Add text input to the sidebar
-#api_key_input = st.sidebar.text_input('Enter your API key:', 'Your OpenAI API key')
+api_key_input = st.sidebar.text_input('Enter your API key:', 'Your OpenAI API key')
  
 
 
