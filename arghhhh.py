@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 
-OPENAI_API_KEY= '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'  
+OPENAI_API_KEY = "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"
 client = openai.OpenAI(api_key=OPENAI_API_KEY)
 prompt =  """Act as a social media coordinator. Write a product slogan. You will receive product description and
             you should give 20 ideas of product slogan and also give description to support the slogan.
